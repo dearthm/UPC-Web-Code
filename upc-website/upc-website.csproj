@@ -210,7 +210,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\pic1.jpg" />
+    <Content Include="images\pic2.jpg" />
+    <Content Include="images\pic3.jpg" />
     <Content Include="media.aspx" />
+    <Content Include="pics.aspx" />
+    <Content Include="pics2.aspx" />
     <Content Include="WebForm1.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -403,6 +408,20 @@
       <DependentUpon>media.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="pics.aspx.cs">
+      <DependentUpon>pics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pics.aspx.designer.cs">
+      <DependentUpon>pics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pics2.aspx.cs">
+      <DependentUpon>pics2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pics2.aspx.designer.cs">
+      <DependentUpon>pics2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sermons.aspx.cs">
       <DependentUpon>sermons.aspx</DependentUpon>
