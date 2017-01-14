@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace upc_website {
-    
-    
-    public partial class about {
+namespace upc_website
+{
+
+
+    public partial class WebForm1
+    {
     }
 }
