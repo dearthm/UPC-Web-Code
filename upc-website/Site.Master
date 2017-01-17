@@ -7,22 +7,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> </title>
-    <asp:ContentPlaceHolder ID="Header" runat="server"></asp:ContentPlaceHolder>      
-   <%-- <style>
-      .carousel-inner > .item > img,
-      .carousel-inner > .item > a > img {
-      max-width: 40%;
-        margin: auto;
-        border:solid 3px thin ;
-     }
-    </style>--%>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-
-
+    <link href="~/myStyles.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form runat="server">
@@ -85,7 +75,6 @@
                 </div>
             </div>
         </div>
-        <asp:lo
         <div class="container">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>

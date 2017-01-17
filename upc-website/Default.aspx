@@ -1,7 +1,6 @@
 ﻿<%@ Page Title="Home" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="upc_website._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-        <div class="container">
         <div style="background:transparent !important" class="jumbotron text-center" >
         <h1>Union Pentecostal Church</h1>
         <p>Union Pentecostal Church is now over 79 years new!<br />

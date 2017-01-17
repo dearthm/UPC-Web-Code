@@ -214,6 +214,7 @@
     <Content Include="images\pic2.jpg" />
     <Content Include="images\pic3.jpg" />
     <Content Include="media.aspx" />
+    <Content Include="myStyles.css" />
     <Content Include="pics.aspx" />
     <Content Include="pics2.aspx" />
     <Content Include="WebForm1.aspx" />
@@ -266,6 +267,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Account\AddPhoneNumber.aspx.cs">

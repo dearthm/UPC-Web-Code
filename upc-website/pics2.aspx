@@ -1,6 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="pics2.aspx.cs" Inherits="upc_website.pics2" %>
+﻿<%@ Page Title="Pics #2" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="pics2.aspx.cs" Inherits="upc_website.pics2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-<div class="container" style="margin-top:40px;">
+    <div class="container" style="margin-top:40px;">
+    <h1 class="text-center">Carousel</h1>
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -12,15 +13,15 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="/images/pic1.jpg" width:300 height:300" alt="Chania">
+      <img  class="thumbnail" src ="/images/pic1.jpg" width:300 height:300" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="/images/pic2.jpg" width:300 height:300" alt="Chania">
+      <img class="thumbnail" src="/images/pic2.jpg" width:300 height:300" alt="Chania">
     </div>
 
     <div class="item">
-      <img src="/images/pic3.jpg" width:300 height:300" alt="Flower">
+      <img class="thumbnail" src="/images/pic3.jpg" width:300 height:300" alt="Flower">
     </div>
   </div>
 

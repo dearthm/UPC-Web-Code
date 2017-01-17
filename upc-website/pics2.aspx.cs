@@ -11,7 +11,7 @@ namespace upc_website
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Page.Title = string.Format("Pictures{0:d}", DateTime.Now);
         }
     }
 }
