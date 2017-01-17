@@ -7,14 +7,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><%: Page.Title %> </title>
-    <style>
+    <asp:ContentPlaceHolder ID="Header" runat="server"></asp:ContentPlaceHolder>      
+   <%-- <style>
       .carousel-inner > .item > img,
       .carousel-inner > .item > a > img {
       max-width: 40%;
         margin: auto;
         border:solid 3px thin ;
      }
-    </style>
+    </style>--%>
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
@@ -85,7 +86,7 @@
             </div>
         </div>
         <asp:lo
-        <div class="container body-content">
+        <div class="container">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
